@@ -1,7 +1,7 @@
 html, body, .bodyContainer {
   margin: 0;
   padding: 0;
-  font-family: arial, sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
 
 }
 
@@ -17,31 +17,85 @@ body {
 .bodyContainer {
   width: 375px;
   height: 809px;
-  background-color: red;
+  display: flex;
+  flex-flow: column;
+  background-color: white;
 }
 
 
-/*.topContainer {*/
-/*  background-color: purple;*/
-/*  border-radius: 0 0 30px 30px;*/
-/*}*/
+.topContainer {
+  box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
+  background: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
+  border-radius: 0 0 32px 32px;
+  width: 375px;
+  height: 356px;
+}
 
-/*.widget {*/
-/*  color: white;*/
-/*}*/
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #CAC9FF;
+  padding: 24px 0;
 
-/*.graphic {*/
-/*  text-align: center;*/
-/*  margin: auto;*/
-/*  border-radius: 80%;*/
-/*  font-size: 30px;*/
-/*  background-color: blue;*/
-/*}*/
+}
 
-/*.bottomContainer {*/
-/*  background-color: white;*/
+.widget {
+  text-align: center;
+  margin: auto;
+  border-radius: 100%;
+  background: linear-gradient(180deg, #4d21c9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+  width: 140px;
+  height: 140px;
+}
 
-/*}*/
+.graphicInfo {
+  margin: auto;
+  padding-top: 25px;
+}
 
+.graphicInfo p {
+  margin: 0 auto;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 129%;
+  color: white;
+
+}
+
+.graphicInfo span {
+  opacity: 0.52;
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 22px;
+  color: #CAC9FF;
+}
+
+
+.finalScore {
+  width: 260px;
+  height: 81px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.finalScore h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+
+  margin: 0 0;
+  padding-bottom: 8px;
+}
+
+.finalScore span {
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #CAC9FF;
+}
 
 
