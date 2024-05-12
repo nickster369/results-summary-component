@@ -11,32 +11,37 @@ body {
   display: flex;
   align-items: center;
   background-color: grey;
+
 }
 
 .bodyContainer {
   width: 375px;
-  height: 100%;
-  background-color: black;
-  border-radius: 20px;
+  height: 809px;
+  background-color: red;
 }
 
-.topContainer {
-  background-color: purple;
-  height: 40vh;
 
-  border-radius: 0 0 30px 30px;
-}
+/*.topContainer {*/
+/*  background-color: purple;*/
+/*  border-radius: 0 0 30px 30px;*/
+/*}*/
 
-.widget {
-  color: white;
-}
+/*.widget {*/
+/*  color: white;*/
+/*}*/
 
-.graphic {
-  text-align: center;
-  margin: auto;
-  border-radius: 80%;
-  font-size: 30px;
-  background-color: blue;
-  width: 150px;
-  height: 150px;
-}
+/*.graphic {*/
+/*  text-align: center;*/
+/*  margin: auto;*/
+/*  border-radius: 80%;*/
+/*  font-size: 30px;*/
+/*  background-color: blue;*/
+/*}*/
+
+/*.bottomContainer {*/
+/*  background-color: white;*/
+
+/*}*/
+
+
+
