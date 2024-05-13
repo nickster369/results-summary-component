@@ -15,8 +15,8 @@ body {
 }
 
 .bodyContainer {
-  width: 375px;
-  height: 809px;
+  width: auto;
+  height: auto;
   display: flex;
   flex-flow: column;
   background-color: white;
@@ -93,29 +93,237 @@ body {
 .finalScore span {
   font-weight: 500;
   font-size: 16px;
-
   color: #CAC9FF;
 }
 
 .summaryContainer {
   padding-left: 20px;
   padding-right: 20px;
+
 }
 
 h4 {
-
+  padding-left: 5px;
+  margin-top: 24px;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #303b59;
 }
 
 ul {
   padding-left: 0;
+  align-content: center;
+
 }
 
 li {
   display: flex;
-  justify-content: space-between;
-  padding: 20px 20px;
-  background-color: red;
-  border: 6px solid white;
-  border-radius: 50px;
+  justify-content: space-around;
+  border: 0 solid white;
+  border-bottom-width: 16px;
+  border-radius: 12px;
+  width: 330px;
+  height: 56px;
+  align-items: center;
+}
+
+.spanContainer {
+  padding-right: 135px;
+}
+
+.spanContainer1 {
+  padding-right: 150px;
+}
+
+#reaction {
+  color: #FF5555;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#reactionFade {
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.05));
+}
+
+#memoryFade {
+  background: linear-gradient(to bottom, rgba(255, 255, 0, 0.05), rgba(255, 255, 0, 0.05));
+}
+
+#memory {
+  color: #FFB21E;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#verbalFade {
+  background: linear-gradient(to bottom, rgba(0, 128, 0, 0.05), rgba(0, 128, 0, 0.05));
+}
+
+#verbal {
+  color: #00BB8F;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#visualFade {
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0.05), rgba(0, 0, 255, 0.05));
+}
+
+#visual {
+  color: #1125D6;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.spanPadding {
+  Padding-right: 10px;
+}
+
+li span {
+  color: #303b59;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+
+}
+
+.fade {
+  opacity: 0.5;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+strong {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.buttonBox {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+
+button {
+  border-radius: 128px;
+  color: #fff;
+  background-color: #303b59;
+  width: 315px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 1080px) {
+
+  .bodyContainer {
+    flex-direction: row;
+    border-radius: 32px;
+
+  }
+
+  .topContainer {
+    height: 512px;
+    width: 368px;
+    border-radius: 32px;
+  }
+
+  .finalScore {
+    width: 260px;
+    height: 134px;
+  }
+
+  .finalScore h2 {
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 14px;
+  }
+
+  .finalScore span {
+    font-size: 18px;
+    padding-bottom: 55px;
+  }
+
+  .widget {
+    width: 200px;
+    height: 200px;
+  }
+
+  .title {
+    font-size: 24px;
+    padding-top: 38px;
+    padding-bottom: 35px;
+  }
+
+  .graphicInfo {
+    padding-top: 50px;
+  }
+
+  .graphicInfo p {
+    font-size: 72px;
+    line-height: 100%;
+  }
+
+  .graphicInfo span {
+    font-size: 18px;
+  }
+
+  .spanContainer {
+    padding-right: 125px;
+  }
+
+  .spanContainer1 {
+    padding-right: 125px;
+  }
+
+  ul {
+    margin-top: 28px;
+    margin-bottom: 0;
+  }
+
+  li {
+    width: 288px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+
+  button {
+    width: 288px;
+    height: 56px;
+
+  }
+
+  .buttonBox {
+    width: 288px;
+    height: 56px;
+    padding-left: 0;
+    padding-top: 41px;
+
+
+  }
+
+  .fade {
+    opacity: 0.5;
+    font-size: 18px;
+
+  }
+
+  strong {
+    font-size: 18px;
+
+  }
+
+  .spanPadding {
+    padding-right: 0;
+
+  }
 }
 
